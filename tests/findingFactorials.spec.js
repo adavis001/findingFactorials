@@ -13,8 +13,11 @@ describe ("findingFactorials", function(){
 	it('should find the factorial', function(){
 		expect(findingFactorials(4)).to.be.equal(24);
 		expect(findingFactorials(10)).to.be.equal(3628800);
+		expect(findingFactorials(170)).to.be.equal(3628800);
+
 	});
 	it('should only take numbers', function(){
 		expect(findingFactorials("hello wolrd")).to.be.equal(false);
-	});
-});
+	});});
+
+9,007,199,254,740,991
